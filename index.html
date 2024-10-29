@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Romantic Pop-Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="background-music" loop>
+    <source src="backsound.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Popup Start Button -->
+  <div id="popup">
+    <div class="ribbon">
+      <span>Selamat Datang!</span>
+    </div>
+    <div class="heart">&#10084;</div>
+    <button id="start-button">Mulai</button>
+  </div>
+
+  <!-- Quotes & Images Container -->
+  <div id="content" style="display: none;">
+    <img id="photo" src="foto1.jpg" alt="Romantic Photo">
+    <p id="quote">"ini adalah kolom komentar"</p>
+    <button id="next-button">Selanjutnya</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

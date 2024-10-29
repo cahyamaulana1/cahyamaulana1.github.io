@@ -1,0 +1,73 @@
+/* Gaya Dasar */
+body {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#popup, #content {
+  width: 90%;
+  max-width: 350px;
+  text-align: center;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Pita */
+.ribbon {
+  background: #ff5e57;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  text-align: center;
+}
+
+/* Hati */
+.heart {
+  font-size: 50px;
+  color: #ff5e57;
+  margin-bottom: 10px;
+}
+
+/* Tombol */
+button {
+  padding: 10px 20px;
+  background-color: #ff5e57;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ff3a30;
+}
+
+/* Gambar dan Quote */
+#photo {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+#quote {
+  font-size: 18px;
+  margin: 15px 0;
+}
